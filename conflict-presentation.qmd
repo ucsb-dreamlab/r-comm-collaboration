@@ -1,11 +1,18 @@
 ---
 title: "R Comm Club Conflice"
 author: "Jon and Jose"
-format: revealjs
+format: 
+  revealjs:
+    theme: [default]
+    title-slide-attributes:
+      data-background-image: /images/web-hex.png
+      data-background-size: contain
+      data-background-opacity: "0.1"
+---
 editor: visual
 ---
 
-## Quarto
+# Quarto
 
 Quarto enables you to weave together content and executable code into a finished presentation. To learn more about Quarto presentations see <https://quarto.org/docs/presentations/>.
 
@@ -21,11 +28,11 @@ Quarto enables you to weave together content and executable code into a finished
 
     -   Pair up
 
-<div>
+
 
 ## Project Management
 
-</div>
+
 
 Notebooks
 
@@ -36,3 +43,7 @@ getwd()
 ```{r}
 list.files()
 ```
+
+# Slide
+
+# Slide again?
