@@ -99,6 +99,8 @@ rAtlas of UCSB Campus
 
 # What should we do with visit 3?
 
+Visit 2 will demonstrate some natural language processing (NLP)
+
 -   Demo US Census API with non-US statistics?
 -   Run through the rAtlas?
 -   ...
@@ -109,7 +111,7 @@ rAtlas of UCSB Campus
 -   https://github.com/ucsb-dreamlab/r-comm-collaboration
     -   Player A: Fork my repo
     -   Player B: Clone Player A's fork of my repo
--   Make your suggestions above (starting at line xx (67) in the code)
+-   Make your suggestions above (starting at line xx (106) in the code)
 -   Player B: commit and push your changes to your fork
     -   Create a Pull Request
 -   Player A: Merge the Pull Request and view the updated presentation.
