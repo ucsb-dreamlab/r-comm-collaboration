@@ -1,7 +1,20 @@
 ---
+<<<<<<< HEAD
 title: "R Comm Club Conflict"
 author: "Jon Jablonski"
 format: revealjs
+=======
+title: "R Comm Club Conflice"
+author: "Jon and Jose"
+format: 
+  revealjs:
+    theme: [default]
+    title-slide-attributes:
+      data-background-image: /images/web-hex.png
+      data-background-size: contain
+      data-background-opacity: "0.1"
+---
+>>>>>>> e4587f90ee885066f5b41a5cf41df2f0c34b7950
 editor: visual
 # this helps show your work:
 execute:
@@ -11,7 +24,7 @@ smaller: true
 scrollable: true
 ---
 
-## Quarto
+# Quarto
 
 This presentation was written in Quarto. To learn more about Quarto presentations see
 
@@ -55,6 +68,7 @@ sessionInfo()
 
     -   aka: creating and resolving conflict
 
+<<<<<<< HEAD
 -   Red \| Green stickies
 
 ## Project Management
@@ -63,6 +77,15 @@ sessionInfo()
 -   ReadMe
 -   Licenses
 -   Quarto Notebooks
+=======
+
+
+## Project Management
+
+
+
+Notebooks
+>>>>>>> e4587f90ee885066f5b41a5cf41df2f0c34b7950
 
 ```{r}
 getwd()
@@ -72,6 +95,7 @@ getwd()
 list.files()
 ```
 
+<<<<<<< HEAD
 # Quarto project structure
 
 ![screenshot of 3 folders that make the slides](images/guts.png)
@@ -127,3 +151,8 @@ If there is conflict:
 -   Much more: https://swcarpentry.github.io/git-novice
 -   git is NOT github
 -   6 hour workshop next week: https://carpentry.library.ucsb.edu/
+=======
+# Slide
+
+# Slide again?
+>>>>>>> e4587f90ee885066f5b41a5cf41df2f0c34b7950
