@@ -2,12 +2,8 @@
 title: "R Comm Club Conflict"
 author: "Jon Jablonski"
 format: 
-  revealjs:
+  pdf:
     theme: [default]
-    title-slide-attributes:
-      data-background-image: /images/web-hex.png
-      data-background-size: contain
-      data-background-opacity: "0.1"
 editor: visual
 # this helps show your work:
 execute:
@@ -16,9 +12,6 @@ execute:
 smaller: true
 scrollable: true
 ---
-
-
-
 
 # Quarto
 
