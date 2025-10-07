@@ -10,8 +10,8 @@
 <link href="conflict-presentation_files/libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
   <meta name="generator" content="quarto-1.5.57">
 
-  <meta name="author" content="Jon and Jose">
-  <title>R Comm Club Conflice</title>
+  <meta name="author" content="Jon Jablonski">
+  <title>R Comm Club Conflict</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -29,6 +29,71 @@
       margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
       vertical-align: middle;
     }
+    /* CSS for syntax highlighting */
+    pre > code.sourceCode { white-space: pre; position: relative; }
+    pre > code.sourceCode > span { line-height: 1.25; }
+    pre > code.sourceCode > span:empty { height: 1.2em; }
+    .sourceCode { overflow: visible; }
+    code.sourceCode > span { color: inherit; text-decoration: inherit; }
+    div.sourceCode { margin: 1em 0; }
+    pre.sourceCode { margin: 0; }
+    @media screen {
+    div.sourceCode { overflow: auto; }
+    }
+    @media print {
+    pre > code.sourceCode { white-space: pre-wrap; }
+    pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
+    }
+    pre.numberSource code
+      { counter-reset: source-line 0; }
+    pre.numberSource code > span
+      { position: relative; left: -4em; counter-increment: source-line; }
+    pre.numberSource code > span > a:first-child::before
+      { content: counter(source-line);
+        position: relative; left: -1em; text-align: right; vertical-align: baseline;
+        border: none; display: inline-block;
+        -webkit-touch-callout: none; -webkit-user-select: none;
+        -khtml-user-select: none; -moz-user-select: none;
+        -ms-user-select: none; user-select: none;
+        padding: 0 4px; width: 4em;
+        color: #aaaaaa;
+      }
+    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+    div.sourceCode
+      { color: #003b4f; background-color: #f1f3f5; }
+    @media screen {
+    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+    }
+    code span { color: #003b4f; } /* Normal */
+    code span.al { color: #ad0000; } /* Alert */
+    code span.an { color: #5e5e5e; } /* Annotation */
+    code span.at { color: #657422; } /* Attribute */
+    code span.bn { color: #ad0000; } /* BaseN */
+    code span.bu { } /* BuiltIn */
+    code span.cf { color: #003b4f; font-weight: bold; } /* ControlFlow */
+    code span.ch { color: #20794d; } /* Char */
+    code span.cn { color: #8f5902; } /* Constant */
+    code span.co { color: #5e5e5e; } /* Comment */
+    code span.cv { color: #5e5e5e; font-style: italic; } /* CommentVar */
+    code span.do { color: #5e5e5e; font-style: italic; } /* Documentation */
+    code span.dt { color: #ad0000; } /* DataType */
+    code span.dv { color: #ad0000; } /* DecVal */
+    code span.er { color: #ad0000; } /* Error */
+    code span.ex { } /* Extension */
+    code span.fl { color: #ad0000; } /* Float */
+    code span.fu { color: #4758ab; } /* Function */
+    code span.im { color: #00769e; } /* Import */
+    code span.in { color: #5e5e5e; } /* Information */
+    code span.kw { color: #003b4f; font-weight: bold; } /* Keyword */
+    code span.op { color: #5e5e5e; } /* Operator */
+    code span.ot { color: #003b4f; } /* Other */
+    code span.pp { color: #ad0000; } /* Preprocessor */
+    code span.sc { color: #5e5e5e; } /* SpecialChar */
+    code span.ss { color: #20794d; } /* SpecialString */
+    code span.st { color: #20794d; } /* String */
+    code span.va { color: #111111; } /* Variable */
+    code span.vs { color: #20794d; } /* VerbatimString */
+    code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   </style>
   <link rel="stylesheet" href="conflict-presentation_files/libs/revealjs/dist/theme/quarto.css">
   <link href="conflict-presentation_files/libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
@@ -244,6 +309,7 @@
     }
     .reveal .slide:not(.center) {
       height: 100%;
+      overflow-y: auto;
     }
     .reveal .slide.scrollable {
       overflow-y: auto;
@@ -325,51 +391,111 @@
   <div class="reveal">
     <div class="slides">
 
-<section id="title-slide" data-background-image="/images/web-hex.png" data-background-opacity="0.1" data-background-size="contain" class="quarto-title-block center">
-  <h1 class="title">R Comm Club Conflice</h1>
+<section id="title-slide" class="quarto-title-block center">
+  <h1 class="title">R Comm Club Conflict</h1>
 
 <div class="quarto-title-authors">
 <div class="quarto-title-author">
 <div class="quarto-title-author-name">
-Jon and Jose 
+Jon Jablonski 
 </div>
 </div>
 </div>
-
-</section>
-<section class="slide level2">
-
-<p>editor: visual</p>
-</section>
-<section class="slide level2">
 
 </section>
 <section>
 <section id="quarto" class="title-slide slide level1 center">
 <h1>Quarto</h1>
-<p>Quarto enables you to weave together content and executable code into a finished presentation. To learn more about Quarto presentations see <a href="https://quarto.org/docs/presentations/" class="uri">https://quarto.org/docs/presentations/</a>.</p>
-</section>
-<section id="bullets" class="slide level2">
-<h2>Bullets</h2>
+<p>This presentation was written in Quarto. To learn more about Quarto presentations see</p>
+<p><a href="https://quarto.org/docs/presentations/" class="uri">https://quarto.org/docs/presentations/</a></p>
+<p>And rendered in <a href="https://revealjs.com/">reveal.js</a> – a web slideshow framework.</p>
+
+<img data-src="images/render-on-save.png" alt="A screenshot of the menu bar with 'render on save' highlighted" class="r-stretch"></section>
+<section id="agenda" class="slide level2">
+<h2>Agenda</h2>
 <ul>
-<li><p>Intros: how was JumpStart?</p></li>
-<li><p>DREAM Lab</p></li>
-<li><p>Collaboration with Github</p>
+<li><p>Intros: how was JumpStart?</p>
 <ul>
-<li><p>Red | Green stickies</p></li>
-<li><p>Pair up</p></li>
+<li>What more R do you want to learn?</li>
 </ul></li>
+<li><p>DREAM Lab (https://www.library.ucsb.edu/dreamlab)</p></li>
+<li><p>Are we set up?</p>
+<ul>
+<li>GitHub accounts</li>
+<li>R and RStudio installed</li>
+<li>Git installed</li>
+<li>SSH keys set up</li>
+</ul></li>
+</ul>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href=""></a><span class="co"># did I forget to tell y'all to install knitr? </span></span>
+<span id="cb1-2"><a href=""></a><span class="co"># or maybe it's default recently?</span></span>
+<span id="cb1-3"><a href=""></a><span class="co"># install.packages("knitr")</span></span>
+<span id="cb1-4"><a href=""></a></span>
+<span id="cb1-5"><a href=""></a><span class="fu">library</span>(knitr)</span>
+<span id="cb1-6"><a href=""></a></span>
+<span id="cb1-7"><a href=""></a><span class="co"># sessionInfo() shows your R version and packages</span></span>
+<span id="cb1-8"><a href=""></a><span class="co"># you'll see rmarkdown yaml and knitr in there</span></span>
+<span id="cb1-9"><a href=""></a><span class="fu">sessionInfo</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>R version 4.4.2 (2024-10-31)
+Platform: aarch64-apple-darwin20
+Running under: macOS Sequoia 15.7.1
+
+Matrix products: default
+BLAS:   /Library/Frameworks/R.framework/Versions/4.4-arm64/Resources/lib/libRblas.0.dylib 
+LAPACK: /Library/Frameworks/R.framework/Versions/4.4-arm64/Resources/lib/libRlapack.dylib;  LAPACK version 3.12.0
+
+locale:
+[1] en_US.UTF-8/en_US.UTF-8/en_US.UTF-8/C/en_US.UTF-8/en_US.UTF-8
+
+time zone: America/Los_Angeles
+tzcode source: internal
+
+attached base packages:
+[1] stats     graphics  grDevices utils     datasets  methods   base     
+
+other attached packages:
+[1] knitr_1.49
+
+loaded via a namespace (and not attached):
+ [1] compiler_4.4.2    fastmap_1.2.0     cli_3.6.3         tools_4.4.2      
+ [5] htmltools_0.5.8.1 rstudioapi_0.17.1 yaml_2.3.10       rmarkdown_2.29   
+ [9] jsonlite_1.8.9    xfun_0.52         digest_0.6.37     rlang_1.1.5      
+[13] evaluate_1.0.3   </code></pre>
+</div>
+</div>
+<ul>
+<li>A little bit about Quarto</li>
+<li>Collaboration with Github
+<ul>
+<li>aka: contributing to Open Source projects</li>
+<li>aka: creating and resolving conflict</li>
+</ul></li>
+<li>Red | Green stickies</li>
 </ul>
 </section>
 <section id="project-management" class="slide level2">
 <h2>Project Management</h2>
-<p>Notebooks</p>
+<ul>
+<li>repo structure</li>
+<li>ReadMe</li>
+<li>Licenses</li>
+<li>Quarto Notebooks</li>
+</ul>
+</section>
+<section id="project-management-1" class="slide level2">
+<h2>Project Management</h2>
+<p>This presentation isn’t exactly a notebook – but the visual editor in rStudio is very notebook-like.</p>
+<p>The code blocks execute when you ‘render’ the presentation. So what you see below is my working directory and a file list * from the time the code was run *</p>
 <div class="cell">
+<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href=""></a><span class="fu">getwd</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>[1] "/Users/jonjab/Documents/r-comm-collaboration"</code></pre>
 </div>
 </div>
 <div class="cell">
+<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href=""></a><span class="fu">list.files</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>[1] "conflict-presentation_files"     "conflict-presentation.html"     
 [3] "conflict-presentation.qmd"       "conflict-presentation.rmarkdown"
@@ -385,7 +511,87 @@ Jon and Jose
 
 <section id="slide-again" class="title-slide slide level1 center">
 <h1>Slide again?</h1>
-<p>Visit #2</p>
+<p>Visit #2 # Quarto project structure</p>
+<p>…these are inside of conflict-presentation_files/libs</p>
+
+<img data-src="images/guts.png" alt="A screenshot of the 3 folders that make the slides" class="r-stretch quarto-figure-center"><p class="caption">Everything in these 3 folders is autogenerated</p><p><small>Dear Jon: switch over to rStudio and show your Learners what Source and Visual look like. You may want to un-comment the launch-a-project code on the next slide while you’re over there. Because you’re going to want to open the rAtlas</small></p>
+</section>
+
+<section id="example-project" class="title-slide slide level1 center">
+<h1>Example project</h1>
+<p>rAtlas of UCSB Campus</p>
+<ul>
+<li>no qmd</li>
+<li>runs straight through 2 paths</li>
+<li>after maps are finished:
+<ul>
+<li>format outputs into page pairs OR screen-output?</li>
+</ul></li>
+</ul>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb7"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb7-1"><a href=""></a><span class="co"># library(rstudioapi)</span></span>
+<span id="cb7-2"><a href=""></a><span class="co"># openProject(selectFile())</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</section>
+
+<section id="a-little-more-about-quarto" class="title-slide slide level1 center">
+<h1>A little more about Quarto</h1>
+<ul>
+<li>We have a whole workshop</li>
+<li>Helps you be FAIR and Open</li>
+</ul>
+</section>
+
+<section id="what-should-we-do-with-visit-3" class="title-slide slide level1 center">
+<h1>What should we do with visit 3?</h1>
+<p>Visit 2 will demonstrate some natural language processing (NLP)</p>
+<ul>
+<li>Demo US Census API with non-US statistics?</li>
+<li>Run through the rAtlas?</li>
+<li>…</li>
+</ul>
+</section>
+
+<section id="hands-on-challenge" class="title-slide slide level1 center">
+<h1>Hands-on challenge</h1>
+<ul>
+<li>Pair up help your neighbor</li>
+<li>https://github.com/ucsb-dreamlab/r-comm-collaboration
+<ul>
+<li>Player A: Fork my repo</li>
+<li>Player B: Clone Player A’s fork of my repo</li>
+</ul></li>
+<li>Make your suggestions above (starting at line xx (106) in the code)</li>
+<li>Player B: commit and push your changes to your fork
+<ul>
+<li>Create a Pull Request</li>
+</ul></li>
+<li>Player A: Merge the Pull Request and view the updated presentation.</li>
+</ul>
+</section>
+
+<section id="conflict-resolution" class="title-slide slide level1 center">
+<h1>Conflict resolution</h1>
+<p>If there is conflict:</p>
+<p>&lt; it will look like this &gt; &gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt; HEAD incomprehensible -gjk3980s- code Something that was inserted or duplicated by the pull. &gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;</p>
+</section>
+
+<section id="more-on-git" class="title-slide slide level1 center">
+<h1>More on git</h1>
+<ul>
+<li>Much more: https://swcarpentry.github.io/git-novice</li>
+<li>git is NOT github</li>
+<li>We are hosting a 6 hour workshop next week: https://carpentry.library.ucsb.edu/</li>
+</ul>
+</section>
+
+<section id="slide" class="title-slide slide level1 center">
+<h1>Slide</h1>
+
+</section>
+
+<section id="slide-again-1" class="title-slide slide level1 center">
+<h1>Slide again?</h1>
 <div class="quarto-auto-generated-content">
 <div class="footer footer-default">
 
@@ -423,7 +629,7 @@ Jon and Jose
 'autoAnimateDuration': 1,
 'autoAnimateUnmatched': true,
 'menu': {"side":"left","useTextContentForMissingTitles":true,"markers":false,"loadIcons":false,"custom":[{"title":"Tools","icon":"<i class=\"fas fa-gear\"></i>","content":"<ul class=\"slide-menu-items\">\n<li class=\"slide-tool-item active\" data-item=\"0\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.fullscreen(event)\"><kbd>f</kbd> Fullscreen</a></li>\n<li class=\"slide-tool-item\" data-item=\"1\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.speakerMode(event)\"><kbd>s</kbd> Speaker View</a></li>\n<li class=\"slide-tool-item\" data-item=\"2\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.overview(event)\"><kbd>o</kbd> Slide Overview</a></li>\n<li class=\"slide-tool-item\" data-item=\"3\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.togglePdfExport(event)\"><kbd>e</kbd> PDF Export Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"4\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.keyboardHelp(event)\"><kbd>?</kbd> Keyboard Help</a></li>\n</ul>"}],"openButton":true},
-'smaller': false,
+'smaller': true,
  
         // Display controls in the bottom right corner
         controls: false,

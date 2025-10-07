@@ -17,13 +17,11 @@ scrollable: true
 
 This presentation was written in Quarto. To learn more about Quarto presentations see
 
-
 <https://quarto.org/docs/presentations/>
-
 
 And rendered in [reveal.js](https://revealjs.com/) -- a web slideshow framework.
 
-![](images/render-on-save.png){fig-alt="A screenshot of the menu bar with 'render on save' highlighted"} 
+![](images/render-on-save.png){fig-alt="A screenshot of the menu bar with 'render on save' highlighted"}
 
 ## Agenda
 
@@ -80,13 +78,11 @@ getwd()
 list.files()
 ```
 
-
-
 # Project Organization
 
 # Slide again?
-Visit #2
-# Quarto project structure
+
+Visit #2 \# Quarto project structure
 
 ...these are inside of conflict-presentation_files/libs
 
