@@ -1,0 +1,23 @@
+[
+  {
+    "objectID": "conflict-presentation.html#agenda",
+    "href": "conflict-presentation.html#agenda",
+    "title": "R Comm Club Conflict",
+    "section": "Agenda",
+    "text": "Agenda\n\nIntros: how was JumpStart?\n\nWhat more R do you want to learn?\n\nDREAM Lab (https://www.library.ucsb.edu/dreamlab)\nAre we set up?\n\nGitHub accounts\nR and RStudio installed\nGit installed\nSSH keys set up\n\n\n\n# did I forget to tell y'all to install knitr? \n# or maybe it's default recently?\n# install.packages(\"knitr\")\n\nlibrary(knitr)\n\n# sessionInfo() shows your R version and packages\n# you'll see rmarkdown yaml and knitr in there\nsessionInfo()\n\nR version 4.5.1 (2025-06-13 ucrt)\nPlatform: x86_64-w64-mingw32/x64\nRunning under: Windows 11 x64 (build 22631)\n\nMatrix products: default\n  LAPACK version 3.12.1\n\nlocale:\n[1] LC_COLLATE=English_United States.utf8 \n[2] LC_CTYPE=English_United States.utf8   \n[3] LC_MONETARY=English_United States.utf8\n[4] LC_NUMERIC=C                          \n[5] LC_TIME=English_United States.utf8    \n\ntime zone: America/Los_Angeles\ntzcode source: internal\n\nattached base packages:\n[1] stats     graphics  grDevices utils     datasets  methods   base     \n\nother attached packages:\n[1] knitr_1.50\n\nloaded via a namespace (and not attached):\n [1] compiler_4.5.1    fastmap_1.2.0     cli_3.6.5         tools_4.5.1      \n [5] htmltools_0.5.8.1 rstudioapi_0.17.1 yaml_2.3.10       rmarkdown_2.29   \n [9] jsonlite_2.0.0    xfun_0.52         digest_0.6.37     rlang_1.1.6      \n[13] evaluate_1.0.4   \n\n\n\nA little bit about Quarto\nCollaboration with Github\n\naka: contributing to Open Source projects\naka: creating and resolving conflict\n\nRed | Green stickies"
+  },
+  {
+    "objectID": "conflict-presentation.html#project-management",
+    "href": "conflict-presentation.html#project-management",
+    "title": "R Comm Club Conflict",
+    "section": "Project Management",
+    "text": "Project Management\n\nrepo structure\nReadMe\nLicenses\nQuarto Notebooks"
+  },
+  {
+    "objectID": "conflict-presentation.html#project-management-1",
+    "href": "conflict-presentation.html#project-management-1",
+    "title": "R Comm Club Conflict",
+    "section": "Project Management",
+    "text": "Project Management\nThis presentation isn’t exactly a notebook – but the visual editor in rStudio is very notebook-like.\nThe code blocks execute when you ‘render’ the presentation. So what you see below is my working directory and a file list * from the time the code was run *\n\ngetwd()\n\n[1] \"D:/r-comm-collaboration\"\n\n\n\nlist.files()\n\n [1] \"_quarto.yml\"                     \"_site\"                          \n [3] \"conflict-presentation.html\"      \"conflict-presentation.qmd\"      \n [5] \"conflict-presentation.rmarkdown\" \"conflict-presentation_files\"    \n [7] \"docs\"                            \"images\"                         \n [9] \"LICENSE\"                         \"r-comm-collaboration.Rproj\"     \n[11] \"README.md\""
+  }
+]
