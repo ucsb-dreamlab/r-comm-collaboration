@@ -17,9 +17,6 @@ smaller: true
 scrollable: true
 ---
 
-
-
-
 # Quarto
 
 This presentation was written in Quarto. To learn more about Quarto presentations see
